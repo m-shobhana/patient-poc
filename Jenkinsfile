@@ -14,7 +14,7 @@ pipeline
     }
      stage('Perfrom Regression Testing'){
      steps{
-     bat 'newman run E:\\postman_collection\\Patient.postman_collection.json --diable-unicode'
+     bat 'C:\\Users\\SHOBHANA\\AppData\\Roaming\\npm\\newman run E:\\postman_collection\\Patient.postman_collection.json --diable-unicode'
      }
     }
     
