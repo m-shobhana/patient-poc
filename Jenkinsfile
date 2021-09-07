@@ -4,8 +4,7 @@ pipeline
  stages{
   stage('Build Application'){
    steps{
-    bat 'mvn clean install' 
-    }
+    bat 'mvn clean install'}
    }
   stage('Deploy Application to Mulesoft CloudHub'){
    steps{
