@@ -30,6 +30,19 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
+				<configuration>
+				<cloudHubDeployment>
+				<uri>https://anypoint.mulesoft.com</uri>
+				<objectStoreV2>true</objectStoreV2>
+				<username>shobhana-m</username>
+				<environment>Sandbox</environment>
+				<workers>1</workers>
+				<workerType>MICRO</workerType>
+				<applicationName>Patient-service</applicationName>
+				<password>99952023sjMR</password>
+				<muleVersion>4.3.0</muleVersion>
+				</cloudHubDeployment>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
