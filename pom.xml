@@ -2,14 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.mycompany</groupId>
+	<groupId>c5218ffc-b26b-43bc-b8b9-d11f78cd1ca0</groupId>
 	<artifactId>patient</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>mule-application</packaging>
 
 	<name>patient</name>
 
-
+	<description/>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -32,17 +32,17 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				<cloudHubDeployment>
-				<uri>https://anypoint.mulesoft.com</uri>
-				<objectStoreV2>true</objectStoreV2>
-				<username>shobhana-m</username>
-				<environment>Sandbox</environment>
-				<workers>1</workers>
-				<workerType>MICRO</workerType>
-				<applicationName>Patient-service</applicationName>
-				<password>99952023sjMR</password>
-				<muleVersion>4.3.0</muleVersion>
-				</cloudHubDeployment>
+					<cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<objectStoreV2>true</objectStoreV2>
+						<username>shobhana-m</username>
+						<environment>Sandbox</environment>
+						<workers>1</workers>
+						<workerType>MICRO</workerType>
+						<applicationName>Patient-service</applicationName>
+						<password>99952023sjMR</password>
+						<muleVersion>4.3.0</muleVersion>
+					</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
